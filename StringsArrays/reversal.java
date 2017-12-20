@@ -2,7 +2,7 @@
 
 public class reversal {
 
-    public  reversal(String str) {
+    static String reverse(String str) {
 
         int len = str.length();
         StringBuilder dest = new StringBuilder();
@@ -12,8 +12,13 @@ public class reversal {
         {
             dest.append(str.charAt(i));
         }
-        System.out.println(dest.toString());
-    }
+        return dest.toString();
 
+    }
+    public static void main(String[] args)
+    {
+        String input = "n%hhn09ml";
+        System.out.println(reverse(input));
+    }
 
 }
