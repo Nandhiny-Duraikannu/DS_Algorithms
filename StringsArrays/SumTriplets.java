@@ -19,8 +19,7 @@ public class SumTriplets {
     }
     public static void main(String[] args)
     {
-        int sum = 12;
-        System.out.println(count(input.length, sum));
+        System.out.println(count(input.length, 12));
     }
 
 }
