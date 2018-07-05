@@ -39,7 +39,7 @@ return median;
         List<Integer> a= Arrays.asList(1,2);
         List<Integer> b= Arrays.asList(3,4);
 
-        System.out.println("Median:"+med.findMedianSortedArrays(a,b));
+        System.out.println("SqrtInt:"+med.findMedianSortedArrays(a,b));
     }
 
 }

@@ -46,7 +46,7 @@ public class FindMedian {
         int arr2[] = { 3,4};
 
         FindMedian p = new FindMedian();
-        System.out.println("Median Value:"+(float)p.calculateMedian(arr1,arr2));
+        System.out.println("SqrtInt Value:"+(float)p.calculateMedian(arr1,arr2));
 
     }
 }
